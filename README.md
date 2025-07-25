@@ -49,10 +49,12 @@ cd frontend
 npm start
 Runs at: http://localhost:3000
 
-### Start Backend
+### 🔹 Start Backend
+
+```bash
 cd backend
 python app.py
-Runs at: http://localhost:5000
+
 
 ### API Usage
 POST request to:
