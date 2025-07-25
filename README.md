@@ -57,7 +57,7 @@ Runs at: http://localhost:5000
 
 ##🔁 API Usage
 POST request to:
-http://localhost:5000/predict
+http://localhost:5000/api/password_strength
 
 ## ⚠️ Disclaimer
 This is for educational/demo purposes. Do not enter real passwords.
