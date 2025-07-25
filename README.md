@@ -44,18 +44,18 @@ npm install axios react-router-dom
 ### 🧰 Install Backend Dependencies
 pip install -r requirements.txt
 
-##▶️ Run the App
-🔹 Start Frontend
+### Run the App
+Start Frontend
 cd frontend
 npm start
 Runs at: http://localhost:3000
 
-##🔹 Start Backend
+### Start Backend
 cd backend
 python app.py
 Runs at: http://localhost:5000
 
-##🔁 API Usage
+### API Usage
 POST request to:
 http://localhost:5000/api/password_strength
 
