@@ -36,7 +36,7 @@ Enter a password and get instant feedback on whether it's **Weak**, **Medium**, 
 ---
 
 ## 📦 Installation
-
+```
 ### 🧰 Install Frontend Dependencies
 
 npm install axios react-router-dom
