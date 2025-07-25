@@ -1,0 +1,77 @@
+#modalOverlay {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.466);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.modal-container {
+  position: relative;
+  width: 500px;
+  max-width: 90%;
+  background: url('../assets/images/back.jpg') no-repeat center/cover;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  color: #cf48a2;
+  text-align: center;
+  padding: 40px 30px 30px;
+  box-sizing: border-box;
+  backdrop-filter: brightness(0.8);
+}
+
+.modal-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  z-index: 0;
+}
+
+.modal-content {
+  position: relative;
+  z-index: 1;
+}
+
+.modal-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #cf48a2;
+}
+
+.modal-message {
+  font-size: 1.1rem;
+  color: #4a004a;
+  margin-bottom: 25px;
+}
+
+.close-button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  font-weight: 700;
+  color: #cf48a2;
+  cursor: pointer;
+  z-index: 2;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #a12f7a;
+}
+
+.close-button:focus {
+  outline: 2px solid #cf48a2;
+  outline-offset: 2px;
+}
