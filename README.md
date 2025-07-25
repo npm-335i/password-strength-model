@@ -37,24 +37,24 @@ Enter a password and get instant feedback on whether it's **Weak**, **Medium**, 
 
 ## 📦 Installation
 ```
-### 🧰 Install Frontend Dependencies
+🧰 Install Frontend Dependencies
 
 npm install axios react-router-dom
 
-### 🧰 Install Backend Dependencies
+ 🧰 Install Backend Dependencies
 pip install -r requirements.txt
 
-### Run the App
+🔹 Run the App
 cd frontend
 npm start
 Runs at: http://localhost:3000
 
-### 🔹 Start Backend
+🔹 Start Backend
 cd backend
 python app.py
 
 
-### API Usage
+🔹 API Usage
 POST request to:
 http://localhost:5000/api/password_strength
 
