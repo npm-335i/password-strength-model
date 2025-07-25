@@ -45,7 +45,6 @@ npm install axios react-router-dom
 pip install -r requirements.txt
 
 ### Run the App
-Start Frontend
 cd frontend
 npm start
 Runs at: http://localhost:3000
