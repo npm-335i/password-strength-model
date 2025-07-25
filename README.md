@@ -1,7 +1,7 @@
 # 🔐 password-strength-model
 
-> ⚠️ *Note:* The predictions aren't always 100% accurate — some passwords may not return the expected strength. It's still a work in progress and open to improvements.
-
+> ⚠️ *Note:* The predictions aren't always 100% accurate — some passwords may not return the expected strength. It's still a work in progress and open to improvements. And Download model from: https://www.mediafire.com/file/nl2v6r6nfjlcxyt/model.pkl/file
+> *After Downloading Model:* Place it in Backend Folder and you will be fine.
 ---
 
 ## 🌐 Full-Stack Password Strength Classifier
