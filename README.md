@@ -49,17 +49,15 @@ cd frontend
 npm start
 Runs at: http://localhost:3000
 
-### 🔹 Start Backend<br />
-cd backend<br />
-python app.py<br />
+### 🔹 Start Backend
+cd backend
+python app.py
 
 
 ### API Usage
-POST request to:<br />
-http://localhost:5000/api/password_strength<br />
+POST request to:
+http://localhost:5000/api/password_strength
 
-## ⚠️ Disclaimer
-This is for educational/demo purposes. Do not enter real passwords.
 
 
 
