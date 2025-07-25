@@ -30,7 +30,7 @@ Enter a password and get instant feedback on whether it's **Weak**, **Medium**, 
 | Frontend      | Backend      | ML Libraries             |
 |---------------|--------------|---------------------------|
 | React         | Flask        | scikit-learn, joblib      |
-| Axios         | Flask-CORS   | pandas, TF-IDF vectorizer |
+| Axios         | Flask-CORS   | pandas                    |
 | React Router  | Python 3.x   |                           |
 
 ---
